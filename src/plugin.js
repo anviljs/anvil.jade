@@ -1,6 +1,6 @@
 var jade = require( "jade" );
 
-var coffeeCompilerFactory = function( _, anvil ) {
+var jadeCompilerFactory = function( _, anvil ) {
 	return anvil.plugin( {
 		name: "anvil.jade",
 		
@@ -26,4 +26,4 @@ var coffeeCompilerFactory = function( _, anvil ) {
 	} );
 };
 
-module.exports = coffeeCompilerFactory;
+module.exports = jadeCompilerFactory;

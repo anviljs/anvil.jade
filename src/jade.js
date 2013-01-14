@@ -3,9 +3,8 @@ var jade;
 module.exports = function( _, anvil ) {
 	anvil.plugin( {
 		name: "anvil.jade",
-		
 		configure: function( config, command, done ) {
-			anvil.addCompiler( ".jade", this );
+			anvil.addRenderEngine( ".jade", this, "text/html" );
 
 			anvil.config[ "anvil.combiner" ].patterns.push( {
 				extensions: [ ".jade" ],
@@ -15,15 +14,14 @@ module.exports = function( _, anvil ) {
 			done();
 		},
 
-		compile: function( content, done ) {
+		render: function( file, content, context, done, options ) {
 			if( !jade ) {
 				jade = require( "jade" );
 			}
 			try {
-				var compile = jade.compile( content, {
-					pretty: true
-				} );
-				done( compile({}) );
+				var opts = _.extend( { pretty: true, filename: file }, options ),
+					compile = jade.compile( content, opts );
+				done( compile( context ) );
 			} catch ( error ) {
 				done( "", error );
 			}

@@ -9,3 +9,5 @@ Requires anvil.js version 0.9.* or greater.
 ## Usage
 
 If this extension is installed and enabled, it will automatically 'compile' files ending in .jade and output .html files in your output folder.
+
+Please see documentation on template rendering for more advanced options and instructions.

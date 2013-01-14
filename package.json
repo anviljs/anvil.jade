@@ -2,7 +2,7 @@
   "author": "Alex Robson <alex@sharplearningcurve.com> (http://sharplearningcurve.com)",
   "name": "anvil.jade",
   "description": "Jade compiler extension for anvil.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/arobson/anvil.jade.git"
@@ -12,7 +12,6 @@
   },
   "main": "./lib/jade.js",
   "dependencies": { "jade": "~0.27" },
-  "devDependencies": { "anvil.js" : "~0.8"},
   "optionalDependencies": {},
   "keywords": [ "anvil", "jade" ]
 }

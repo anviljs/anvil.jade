@@ -23,6 +23,7 @@ module.exports = function( _, anvil ) {
 					compile = jade.compile( content, opts );
 				done( compile( context ) );
 			} catch ( error ) {
+				anvil.stopBuild( error );
 				done( "", error );
 			}
 		},

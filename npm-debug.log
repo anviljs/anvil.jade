@@ -1,0 +1,542 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/asrobson/.nvm/v0.8.16/bin/node',
+1 verbose cli   '/Users/asrobson/.nvm/v0.8.16/bin/npm',
+1 verbose cli   'update' ]
+2 info using npm@1.1.69
+3 info using node@v0.8.16
+4 verbose read json /git/js/anvil/anvil.jade/package.json
+5 verbose read json /git/js/anvil/anvil.jade/node_modules/.bin/package.json
+6 verbose read json /git/js/anvil/anvil.jade/node_modules/jade/package.json
+7 warn package.json jade@0.27.0 No README.md file found!
+8 verbose cache add [ 'jade', '~0.27' ]
+9 silly cache add name="jade" spec="~0.27" args=["jade","~0.27"]
+10 verbose parsed url { pathname: '~0.27', path: '~0.27', href: '~0.27' }
+11 verbose addNamed [ 'jade', '~0.27' ]
+12 verbose addNamed [ null, '>=0.27.0- <0.28.0-' ]
+13 verbose cache add [ 'marked', '~0.2.7' ]
+14 silly cache add name="marked" spec="~0.2.7" args=["marked","~0.2.7"]
+15 verbose parsed url { pathname: '~0.2.7', path: '~0.2.7', href: '~0.2.7' }
+16 verbose addNamed [ 'marked', '~0.2.7' ]
+17 verbose addNamed [ null, '>=0.2.7- <0.3.0-' ]
+18 silly lockFile 5a948de9-jade-0-27 jade@~0.27
+19 verbose lock jade@~0.27 /Users/asrobson/.npm/5a948de9-jade-0-27.lock
+20 silly lockFile f2bedef6-marked-0-2-7 marked@~0.2.7
+21 verbose lock marked@~0.2.7 /Users/asrobson/.npm/f2bedef6-marked-0-2-7.lock
+22 silly addNameRange { name: 'jade', range: '>=0.27.0- <0.28.0-', hasData: false }
+23 silly addNameRange { name: 'marked', range: '>=0.2.7- <0.3.0-', hasData: false }
+24 verbose url raw jade
+25 verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+26 verbose url resolved https://registry.npmjs.org/jade
+27 info trying registry request attempt 1 at 16:05:51
+28 verbose etag "EXOOODLG5S8JPFA3EDKMKZREY"
+29 http GET https://registry.npmjs.org/jade
+30 verbose url raw marked
+31 verbose url resolving [ 'https://registry.npmjs.org/', './marked' ]
+32 verbose url resolved https://registry.npmjs.org/marked
+33 info trying registry request attempt 1 at 16:05:51
+34 verbose etag "DRCIJ28SS2ZTCR3BUAJ5WOCM7"
+35 http GET https://registry.npmjs.org/marked
+36 http 304 https://registry.npmjs.org/marked
+37 silly registry.get cb [ 304,
+37 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+37 silly registry.get     etag: '"DRCIJ28SS2ZTCR3BUAJ5WOCM7"',
+37 silly registry.get     date: 'Thu, 24 Jan 2013 22:04:14 GMT',
+37 silly registry.get     'content-length': '0' } ]
+38 verbose etag marked from cache
+39 http 304 https://registry.npmjs.org/jade
+40 silly registry.get cb [ 304,
+40 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+40 silly registry.get     etag: '"EXOOODLG5S8JPFA3EDKMKZREY"',
+40 silly registry.get     date: 'Thu, 24 Jan 2013 22:04:14 GMT',
+40 silly registry.get     'content-length': '0' } ]
+41 verbose etag jade from cache
+42 silly addNameRange number 2 { name: 'marked', range: '>=0.2.7- <0.3.0-', hasData: true }
+43 silly addNameRange versions [ 'marked',
+43 silly addNameRange   [ '0.0.1',
+43 silly addNameRange     '0.0.2',
+43 silly addNameRange     '0.0.3',
+43 silly addNameRange     '0.0.4',
+43 silly addNameRange     '0.0.5',
+43 silly addNameRange     '0.0.6',
+43 silly addNameRange     '0.0.7',
+43 silly addNameRange     '0.0.8',
+43 silly addNameRange     '0.0.9',
+43 silly addNameRange     '0.1.0',
+43 silly addNameRange     '0.1.1',
+43 silly addNameRange     '0.1.2',
+43 silly addNameRange     '0.1.3',
+43 silly addNameRange     '0.1.4',
+43 silly addNameRange     '0.1.5',
+43 silly addNameRange     '0.1.6',
+43 silly addNameRange     '0.1.7',
+43 silly addNameRange     '0.1.8',
+43 silly addNameRange     '0.1.9',
+43 silly addNameRange     '0.2.0',
+43 silly addNameRange     '0.2.1',
+43 silly addNameRange     '0.2.2',
+43 silly addNameRange     '0.2.2-1',
+43 silly addNameRange     '0.2.3',
+43 silly addNameRange     '0.2.4',
+43 silly addNameRange     '0.2.4-1',
+43 silly addNameRange     '0.2.5',
+43 silly addNameRange     '0.2.6',
+43 silly addNameRange     '0.2.7' ] ]
+44 verbose addNamed [ 'marked', '0.2.7' ]
+45 verbose addNamed [ '0.2.7', '0.2.7' ]
+46 silly lockFile 33b03191-marked-0-2-7 marked@0.2.7
+47 verbose lock marked@0.2.7 /Users/asrobson/.npm/33b03191-marked-0-2-7.lock
+48 silly addNameRange number 2 { name: 'jade', range: '>=0.27.0- <0.28.0-', hasData: true }
+49 silly addNameRange versions [ 'jade',
+49 silly addNameRange   [ '0.0.1',
+49 silly addNameRange     '0.0.2',
+49 silly addNameRange     '0.1.0',
+49 silly addNameRange     '0.2.0',
+49 silly addNameRange     '0.2.1',
+49 silly addNameRange     '0.2.2',
+49 silly addNameRange     '0.2.3',
+49 silly addNameRange     '0.2.4',
+49 silly addNameRange     '0.3.0',
+49 silly addNameRange     '0.4.0',
+49 silly addNameRange     '0.4.1',
+49 silly addNameRange     '0.5.0',
+49 silly addNameRange     '0.5.1',
+49 silly addNameRange     '0.5.2',
+49 silly addNameRange     '0.5.3',
+49 silly addNameRange     '0.5.4',
+49 silly addNameRange     '0.5.5',
+49 silly addNameRange     '0.5.6',
+49 silly addNameRange     '0.5.7',
+49 silly addNameRange     '0.6.0',
+49 silly addNameRange     '0.6.1',
+49 silly addNameRange     '0.6.3',
+49 silly addNameRange     '0.7.0',
+49 silly addNameRange     '0.7.1',
+49 silly addNameRange     '0.8.0',
+49 silly addNameRange     '0.8.1',
+49 silly addNameRange     '0.8.2',
+49 silly addNameRange     '0.8.3',
+49 silly addNameRange     '0.8.4',
+49 silly addNameRange     '0.8.5',
+49 silly addNameRange     '0.8.6',
+49 silly addNameRange     '0.8.7',
+49 silly addNameRange     '0.8.8',
+49 silly addNameRange     '0.8.9',
+49 silly addNameRange     '0.9.0',
+49 silly addNameRange     '0.9.1',
+49 silly addNameRange     '0.9.2',
+49 silly addNameRange     '0.9.3',
+49 silly addNameRange     '0.10.0',
+49 silly addNameRange     '0.10.1',
+49 silly addNameRange     '0.10.2',
+49 silly addNameRange     '0.10.3',
+49 silly addNameRange     '0.10.4',
+49 silly addNameRange     '0.10.5',
+49 silly addNameRange     '0.10.6',
+49 silly addNameRange     '0.10.7',
+49 silly addNameRange     '0.11.0',
+49 silly addNameRange     '0.11.1',
+49 silly addNameRange     '0.12.0',
+49 silly addNameRange     '0.12.1',
+49 silly addNameRange     '0.12.2',
+49 silly addNameRange     '0.12.3',
+49 silly addNameRange     '0.12.4',
+49 silly addNameRange     '0.13.0',
+49 silly addNameRange     '0.14.0',
+49 silly addNameRange     '0.14.1',
+49 silly addNameRange     '0.14.2',
+49 silly addNameRange     '0.15.0',
+49 silly addNameRange     '0.15.1',
+49 silly addNameRange     '0.15.2',
+49 silly addNameRange     '0.15.3',
+49 silly addNameRange     '0.15.4',
+49 silly addNameRange     '0.16.0',
+49 silly addNameRange     '0.16.1',
+49 silly addNameRange     '0.16.2',
+49 silly addNameRange     '0.16.3',
+49 silly addNameRange     '0.16.4',
+49 silly addNameRange     '0.17.0',
+49 silly addNameRange     '0.18.0',
+49 silly addNameRange     '0.19.0',
+49 silly addNameRange     '0.20.0',
+49 silly addNameRange     '0.20.1',
+49 silly addNameRange     '0.20.2',
+49 silly addNameRange     '0.20.3',
+49 silly addNameRange     '0.21.0',
+49 silly addNameRange     '0.22.0',
+49 silly addNameRange     '0.22.1',
+49 silly addNameRange     '0.23.0',
+49 silly addNameRange     '0.24.0',
+49 silly addNameRange     '0.25.0',
+49 silly addNameRange     '0.26.0',
+49 silly addNameRange     '0.26.1',
+49 silly addNameRange     '0.26.2',
+49 silly addNameRange     '0.26.3',
+49 silly addNameRange     '0.27.0',
+49 silly addNameRange     '0.27.1',
+49 silly addNameRange     '0.27.2',
+49 silly addNameRange     '0.27.3',
+49 silly addNameRange     '0.27.4',
+49 silly addNameRange     '0.27.5',
+49 silly addNameRange     '0.27.6',
+49 silly addNameRange     '0.27.7',
+49 silly addNameRange     '0.28.0',
+49 silly addNameRange     '0.28.1' ] ]
+50 verbose addNamed [ 'jade', '0.27.7' ]
+51 verbose addNamed [ '0.27.7', '0.27.7' ]
+52 silly lockFile 45ba1fa8-jade-0-27-7 jade@0.27.7
+53 verbose lock jade@0.27.7 /Users/asrobson/.npm/45ba1fa8-jade-0-27-7.lock
+54 verbose read json /Users/asrobson/.npm/marked/0.2.7/package/package.json
+55 verbose read json /Users/asrobson/.npm/jade/0.27.7/package/package.json
+56 silly lockFile 33b03191-marked-0-2-7 marked@0.2.7
+57 silly lockFile f2bedef6-marked-0-2-7 marked@~0.2.7
+58 silly lockFile 45ba1fa8-jade-0-27-7 jade@0.27.7
+59 silly lockFile 5a948de9-jade-0-27 jade@~0.27
+60 info outdated updating [ [ '/git/js/anvil/anvil.jade', 'marked', undefined, '0.2.7' ],
+60 info outdated   [ '/git/js/anvil/anvil.jade', 'jade', '0.27.0', '0.27.7' ] ]
+61 verbose install where,what [ '/git/js/anvil/anvil.jade', [ 'marked@0.2.7' ] ]
+62 verbose install where,what [ '/git/js/anvil/anvil.jade', [ 'jade@0.27.7' ] ]
+63 verbose from cache /git/js/anvil/anvil.jade/package.json
+64 verbose from cache /git/js/anvil/anvil.jade/package.json
+65 verbose from cache /git/js/anvil/anvil.jade/node_modules/jade/package.json
+66 verbose from cache /git/js/anvil/anvil.jade/node_modules/jade/package.json
+67 verbose from cache /git/js/anvil/anvil.jade/package.json
+68 verbose from cache /git/js/anvil/anvil.jade/package.json
+69 verbose readDependencies using package.json deps
+70 verbose cache add [ 'marked@0.2.7', null ]
+71 silly cache add name=undefined spec="marked@0.2.7" args=["marked@0.2.7",null]
+72 verbose parsed url { pathname: 'marked@0.2.7',
+72 verbose parsed url   path: 'marked@0.2.7',
+72 verbose parsed url   href: 'marked@0.2.7' }
+73 silly cache add name="marked" spec="0.2.7" args=["marked","0.2.7"]
+74 verbose parsed url { pathname: '0.2.7', path: '0.2.7', href: '0.2.7' }
+75 verbose addNamed [ 'marked', '0.2.7' ]
+76 verbose addNamed [ '0.2.7', '0.2.7' ]
+77 silly lockFile 33b03191-marked-0-2-7 marked@0.2.7
+78 verbose lock marked@0.2.7 /Users/asrobson/.npm/33b03191-marked-0-2-7.lock
+79 verbose readDependencies using package.json deps
+80 verbose cache add [ 'jade@0.27.7', null ]
+81 silly cache add name=undefined spec="jade@0.27.7" args=["jade@0.27.7",null]
+82 verbose parsed url { pathname: 'jade@0.27.7',
+82 verbose parsed url   path: 'jade@0.27.7',
+82 verbose parsed url   href: 'jade@0.27.7' }
+83 silly cache add name="jade" spec="0.27.7" args=["jade","0.27.7"]
+84 verbose parsed url { pathname: '0.27.7', path: '0.27.7', href: '0.27.7' }
+85 verbose addNamed [ 'jade', '0.27.7' ]
+86 verbose addNamed [ '0.27.7', '0.27.7' ]
+87 silly lockFile 45ba1fa8-jade-0-27-7 jade@0.27.7
+88 verbose lock jade@0.27.7 /Users/asrobson/.npm/45ba1fa8-jade-0-27-7.lock
+89 verbose url raw marked/0.2.7
+90 verbose url resolving [ 'https://registry.npmjs.org/', './marked/0.2.7' ]
+91 verbose url resolved https://registry.npmjs.org/marked/0.2.7
+92 info trying registry request attempt 1 at 16:05:52
+93 http GET https://registry.npmjs.org/marked/0.2.7
+94 verbose url raw jade/0.27.7
+95 verbose url resolving [ 'https://registry.npmjs.org/', './jade/0.27.7' ]
+96 verbose url resolved https://registry.npmjs.org/jade/0.27.7
+97 info trying registry request attempt 1 at 16:05:52
+98 http GET https://registry.npmjs.org/jade/0.27.7
+99 http 200 https://registry.npmjs.org/marked/0.2.7
+100 silly registry.get cb [ 200,
+100 silly registry.get   { vary: 'Accept',
+100 silly registry.get     server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+100 silly registry.get     etag: '"DRCIJ28SS2ZTCR3BUAJ5WOCM7"',
+100 silly registry.get     date: 'Thu, 24 Jan 2013 22:04:15 GMT',
+100 silly registry.get     'content-type': 'application/json',
+100 silly registry.get     'content-length': '4541' } ]
+101 silly lockFile 1677e80e-pmjs-org-marked-marked-0-2-7-tgz https://registry.npmjs.org/marked/-/marked-0.2.7.tgz
+102 verbose lock https://registry.npmjs.org/marked/-/marked-0.2.7.tgz /Users/asrobson/.npm/1677e80e-pmjs-org-marked-marked-0-2-7-tgz.lock
+103 verbose addRemoteTarball [ 'https://registry.npmjs.org/marked/-/marked-0.2.7.tgz',
+103 verbose addRemoteTarball   'd7551f61b4a93e59ec61ec62920feeffdf6fe0fe' ]
+104 info retry fetch attempt 1 at 16:05:52
+105 verbose fetch to= /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152680-0.03157233749516308/tmp.tgz
+106 http GET https://registry.npmjs.org/marked/-/marked-0.2.7.tgz
+107 http 200 https://registry.npmjs.org/jade/0.27.7
+108 silly registry.get cb [ 200,
+108 silly registry.get   { vary: 'Accept',
+108 silly registry.get     server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+108 silly registry.get     etag: '"EXOOODLG5S8JPFA3EDKMKZREY"',
+108 silly registry.get     date: 'Thu, 24 Jan 2013 22:04:15 GMT',
+108 silly registry.get     'content-type': 'application/json',
+108 silly registry.get     'content-length': '31208' } ]
+109 silly lockFile 8e73e513-y-npmjs-org-jade-jade-0-27-7-tgz https://registry.npmjs.org/jade/-/jade-0.27.7.tgz
+110 verbose lock https://registry.npmjs.org/jade/-/jade-0.27.7.tgz /Users/asrobson/.npm/8e73e513-y-npmjs-org-jade-jade-0-27-7-tgz.lock
+111 verbose addRemoteTarball [ 'https://registry.npmjs.org/jade/-/jade-0.27.7.tgz',
+111 verbose addRemoteTarball   'b157e3133789a5724cbdddd45341c7590da927aa' ]
+112 info retry fetch attempt 1 at 16:05:52
+113 verbose fetch to= /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152739-0.29838177538476884/tmp.tgz
+114 http GET https://registry.npmjs.org/jade/-/jade-0.27.7.tgz
+115 http 200 https://registry.npmjs.org/marked/-/marked-0.2.7.tgz
+116 silly shasum updated bytes 9855
+117 info shasum d7551f61b4a93e59ec61ec62920feeffdf6fe0fe
+117 info shasum /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152680-0.03157233749516308/tmp.tgz
+118 verbose tar unpack /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152680-0.03157233749516308/tmp.tgz
+119 silly lockFile 62fce2b4-2680-0-03157233749516308-package /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152680-0.03157233749516308/package
+120 verbose lock /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152680-0.03157233749516308/package /Users/asrobson/.npm/62fce2b4-2680-0-03157233749516308-package.lock
+121 silly gunzTarPerm modes [ '755', '644' ]
+122 silly gunzTarPerm extractEntry package.json
+123 silly gunzTarPerm extractEntry .npmignore
+124 silly gunzTarPerm extractEntry README.md
+125 silly gunzTarPerm extractEntry LICENSE
+126 silly gunzTarPerm extractEntry index.js
+127 silly gunzTarPerm extractEntry bin/marked
+128 silly gunzTarPerm extractEntry Makefile
+129 http 200 https://registry.npmjs.org/jade/-/jade-0.27.7.tgz
+130 silly gunzTarPerm extractEntry man/marked.1
+131 silly gunzTarPerm extractEntry lib/marked.js
+132 verbose read json /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152680-0.03157233749516308/package/package.json
+133 silly lockFile 62fce2b4-2680-0-03157233749516308-package /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152680-0.03157233749516308/package
+134 verbose from cache /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152680-0.03157233749516308/package/package.json
+135 verbose tar pack [ '/Users/asrobson/.npm/marked/0.2.7/package.tgz',
+135 verbose tar pack   '/var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152680-0.03157233749516308/package' ]
+136 verbose tarball /Users/asrobson/.npm/marked/0.2.7/package.tgz
+137 verbose folder /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152680-0.03157233749516308/package
+138 silly lockFile 29926e4f-son-npm-marked-0-2-7-package-tgz /Users/asrobson/.npm/marked/0.2.7/package.tgz
+139 verbose lock /Users/asrobson/.npm/marked/0.2.7/package.tgz /Users/asrobson/.npm/29926e4f-son-npm-marked-0-2-7-package-tgz.lock
+140 silly lockFile 29926e4f-son-npm-marked-0-2-7-package-tgz /Users/asrobson/.npm/marked/0.2.7/package.tgz
+141 silly lockFile 89804a91-srobson-npm-marked-0-2-7-package /Users/asrobson/.npm/marked/0.2.7/package
+142 verbose lock /Users/asrobson/.npm/marked/0.2.7/package /Users/asrobson/.npm/89804a91-srobson-npm-marked-0-2-7-package.lock
+143 silly lockFile 89804a91-srobson-npm-marked-0-2-7-package /Users/asrobson/.npm/marked/0.2.7/package
+144 verbose tar unpack /Users/asrobson/.npm/marked/0.2.7/package.tgz
+145 silly lockFile 89804a91-srobson-npm-marked-0-2-7-package /Users/asrobson/.npm/marked/0.2.7/package
+146 verbose lock /Users/asrobson/.npm/marked/0.2.7/package /Users/asrobson/.npm/89804a91-srobson-npm-marked-0-2-7-package.lock
+147 silly gunzTarPerm modes [ '755', '644' ]
+148 silly gunzTarPerm extractEntry package.json
+149 silly gunzTarPerm extractEntry .npmignore
+150 silly gunzTarPerm extractEntry README.md
+151 silly gunzTarPerm extractEntry LICENSE
+152 silly gunzTarPerm extractEntry index.js
+153 silly gunzTarPerm extractEntry bin/marked
+154 silly gunzTarPerm extractEntry lib/marked.js
+155 silly gunzTarPerm extractEntry Makefile
+156 silly gunzTarPerm extractEntry man/marked.1
+157 verbose from cache /Users/asrobson/.npm/marked/0.2.7/package/package.json
+158 silly lockFile 89804a91-srobson-npm-marked-0-2-7-package /Users/asrobson/.npm/marked/0.2.7/package
+159 silly shasum updated bytes 9951
+160 info shasum 261aa479bde2594ac6e8e8a575af8a304cec2642
+160 info shasum /Users/asrobson/.npm/marked/0.2.7/package.tgz
+161 verbose from cache /Users/asrobson/.npm/marked/0.2.7/package/package.json
+162 verbose chmod /Users/asrobson/.npm/marked/0.2.7/package.tgz 644
+163 verbose chown /Users/asrobson/.npm/marked/0.2.7/package.tgz [ 501, 20 ]
+164 silly lockFile 1677e80e-pmjs-org-marked-marked-0-2-7-tgz https://registry.npmjs.org/marked/-/marked-0.2.7.tgz
+165 silly lockFile 33b03191-marked-0-2-7 marked@0.2.7
+166 silly resolved [ { name: 'marked',
+166 silly resolved     description: 'A markdown parser built for speed',
+166 silly resolved     author: { name: 'Christopher Jeffrey' },
+166 silly resolved     version: '0.2.7',
+166 silly resolved     main: './lib/marked.js',
+166 silly resolved     bin: { marked: './bin/marked' },
+166 silly resolved     man: [ './man/marked.1' ],
+166 silly resolved     preferGlobal: true,
+166 silly resolved     repository: { type: 'git', url: 'git://github.com/chjj/marked.git' },
+166 silly resolved     homepage: 'https://github.com/chjj/marked',
+166 silly resolved     bugs: { url: 'http://github.com/chjj/marked/issues' },
+166 silly resolved     keywords: [ 'markdown', 'markup', 'html' ],
+166 silly resolved     tags: [ 'markdown', 'markup', 'html' ],
+166 silly resolved     scripts: { test: 'node test', bench: 'node test --bench' },
+166 silly resolved     readme: '# marked\n\nA full-featured markdown parser and compiler, written in javascript.\nBuilt for speed.\n\n## Benchmarks\n\nnode v0.4.x\n\n``` bash\n$ node test --bench\nmarked completed in 12071ms.\nshowdown (reuse converter) completed in 27387ms.\nshowdown (new converter) completed in 75617ms.\nmarkdown-js completed in 70069ms.\n```\n\nnode v0.6.x\n\n``` bash\n$ node test --bench\nmarked completed in 6448ms.\nmarked (gfm) completed in 7357ms.\nmarked (pedantic) completed in 6092ms.\ndiscount completed in 7314ms.\nshowdown (reuse converter) completed in 16018ms.\nshowdown (new converter) completed in 18234ms.\nmarkdown-js completed in 24270ms.\n```\n\n__Marked is now faster than Discount, which is written in C.__\n\nFor those feeling skeptical: These benchmarks run the entire markdown test suite\n1000 times. The test suite tests every feature. It doesn\'t cater to specific\naspects.\n\n## Install\n\n``` bash\n$ npm install marked\n```\n\n## Another Javascript Markdown Parser\n\nThe point of marked was to create a markdown compiler where it was possible to\nfrequently parse huge chunks of markdown without having to worry about\ncaching the compiled output somehow...or blocking for an unnecesarily long time.\n\nmarked is very concise and still implements all markdown features. It is also\nnow fully compatible with the client-side.\n\nmarked more or less passes the official markdown test suite in its\nentirety. This is important because a surprising number of markdown compilers\ncannot pass more than a few tests. It was very difficult to get marked as\ncompliant as it is. It could have cut corners in several areas for the sake\nof performance, but did not in order to be exactly what you expect in terms\nof a markdown rendering. In fact, this is why marked could be considered at a\ndisadvantage in the benchmarks above.\n\nAlong with implementing every markdown feature, marked also implements\n[GFM features](http://github.github.com/github-flavored-markdown/).\n\n## Options\n\nmarked has a few different switches which change behavior.\n\n- __pedantic__: Conform to obscure parts of `markdown.pl` as much as possible.\n  Don\'t fix any of the original markdown bugs or poor behavior.\n- __gfm__: Enable github flavored markdown (enabled by default).\n- __sanitize__: Sanitize the output. Ignore any HTML that has been input.\n- __highlight__: A callback to highlight code blocks.\n- __tables__: Enable GFM tables. This is enabled by default. (Requires the\n  `gfm` option in order to be enabled).\n- __breaks__: Enable GFM line breaks. Disabled by default.\n\n## Usage\n\n``` js\n// Set default options\nmarked.setOptions({\n  gfm: true,\n  tables: true,\n  breaks: false,\n  pedantic: false,\n  sanitize: true,\n  highlight: function(code, lang) {\n    if (lang === \'js\') {\n      return highlighter.javascript(code);\n    }\n    return code;\n  }\n});\nconsole.log(marked(\'i am using __markdown__.\'));\n```\n\nYou also have direct access to the lexer and parser if you so desire.\n\n``` js\nvar tokens = marked.lexer(text, options);\nconsole.log(marked.parser(tokens));\n```\n\n``` js\nvar lexer = new marked.Lexer(options);\nvar tokens = lexer.lex(text);\nconsole.log(tokens);\nconsole.log(lexer.rules);\n```\n\n``` bash\n$ node\n> require(\'marked\').lexer(\'> i am using marked.\')\n[ { type: \'blockquote_start\' },\n  { type: \'paragraph\',\n    text: \'i am using marked.\' },\n  { type: \'blockquote_end\' },\n  links: {} ]\n```\n\n## CLI\n\n``` bash\n$ marked -o hello.html\nhello world\n^D\n$ cat hello.html\n<p>hello world</p>\n```\n\n## License\n\nCopyright (c) 2011-2013, Christopher Jeffrey. (MIT License)\n\nSee LICENSE for more info.\n',
+166 silly resolved     readmeFilename: 'README.md',
+166 silly resolved     _id: 'marked@0.2.7',
+166 silly resolved     dist: { shasum: '261aa479bde2594ac6e8e8a575af8a304cec2642' },
+166 silly resolved     _from: 'marked@0.2.7' } ]
+167 info install marked@0.2.7 into /git/js/anvil/anvil.jade
+168 info installOne marked@0.2.7
+169 verbose from cache /Users/asrobson/.npm/marked/0.2.7/package/package.json
+170 info /git/js/anvil/anvil.jade/node_modules/marked unbuild
+171 verbose read json /git/js/anvil/anvil.jade/node_modules/marked/package.json
+172 verbose tar unpack /Users/asrobson/.npm/marked/0.2.7/package.tgz
+173 silly lockFile 8ecdda4c-l-anvil-jade-node-modules-marked /git/js/anvil/anvil.jade/node_modules/marked
+174 verbose lock /git/js/anvil/anvil.jade/node_modules/marked /Users/asrobson/.npm/8ecdda4c-l-anvil-jade-node-modules-marked.lock
+175 silly gunzTarPerm modes [ '755', '644' ]
+176 silly gunzTarPerm extractEntry package.json
+177 silly gunzTarPerm extractEntry .npmignore
+178 silly gunzTarPerm extractEntry README.md
+179 silly gunzTarPerm extractEntry LICENSE
+180 silly gunzTarPerm extractEntry index.js
+181 silly gunzTarPerm extractEntry bin/marked
+182 silly gunzTarPerm extractEntry lib/marked.js
+183 silly gunzTarPerm extractEntry Makefile
+184 silly gunzTarPerm extractEntry man/marked.1
+185 verbose read json /git/js/anvil/anvil.jade/node_modules/marked/package.json
+186 silly lockFile 8ecdda4c-l-anvil-jade-node-modules-marked /git/js/anvil/anvil.jade/node_modules/marked
+187 info preinstall marked@0.2.7
+188 verbose from cache /git/js/anvil/anvil.jade/node_modules/marked/package.json
+189 verbose readDependencies using package.json deps
+190 verbose from cache /git/js/anvil/anvil.jade/node_modules/marked/package.json
+191 verbose readDependencies using package.json deps
+192 silly resolved []
+193 verbose about to build /git/js/anvil/anvil.jade/node_modules/marked
+194 info build /git/js/anvil/anvil.jade/node_modules/marked
+195 verbose from cache /git/js/anvil/anvil.jade/node_modules/marked/package.json
+196 verbose linkStuff [ false, false, false, '/git/js/anvil/anvil.jade/node_modules' ]
+197 info linkStuff marked@0.2.7
+198 warn prefer global marked@0.2.7 should be installed with -g
+199 verbose linkBins marked@0.2.7
+200 verbose link bins [ { marked: './bin/marked' },
+200 verbose link bins   '/git/js/anvil/anvil.jade/node_modules/.bin',
+200 verbose link bins   false ]
+201 verbose linkMans marked@0.2.7
+202 verbose rebuildBundles marked@0.2.7
+203 info install marked@0.2.7
+204 info postinstall marked@0.2.7
+205 silly shasum updated bytes 40960
+206 silly shasum updated bytes 20262
+207 info shasum b157e3133789a5724cbdddd45341c7590da927aa
+207 info shasum /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152739-0.29838177538476884/tmp.tgz
+208 verbose tar unpack /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152739-0.29838177538476884/tmp.tgz
+209 silly lockFile 3f236789-2739-0-29838177538476884-package /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152739-0.29838177538476884/package
+210 verbose lock /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152739-0.29838177538476884/package /Users/asrobson/.npm/3f236789-2739-0-29838177538476884-package.lock
+211 silly gunzTarPerm modes [ '755', '644' ]
+212 silly gunzTarPerm extractEntry package.json
+213 silly gunzTarPerm extractEntry .npmignore
+214 silly gunzTarPerm extractEntry LICENSE
+215 silly gunzTarPerm extractEntry index.js
+216 silly gunzTarPerm extractEntry jade.js
+217 silly gunzTarPerm extractEntry runtime.js
+218 silly gunzTarPerm extractEntry jade.min.js
+219 silly gunzTarPerm extractEntry runtime.min.js
+220 silly gunzTarPerm extractEntry bin/jade
+221 silly gunzTarPerm extractEntry Readme.md
+222 silly gunzTarPerm extractEntry jade.md
+223 silly gunzTarPerm extractEntry lib/compiler.js
+224 silly gunzTarPerm extractEntry lib/filters.js
+225 silly gunzTarPerm extractEntry lib/inline-tags.js
+226 silly gunzTarPerm extractEntry lib/jade.js
+227 silly gunzTarPerm extractEntry lib/doctypes.js
+228 silly gunzTarPerm extractEntry lib/self-closing.js
+229 silly gunzTarPerm extractEntry lib/parser.js
+230 silly gunzTarPerm extractEntry lib/runtime.js
+231 silly gunzTarPerm extractEntry lib/utils.js
+232 silly gunzTarPerm extractEntry lib/lexer.js
+233 silly gunzTarPerm extractEntry lib/nodes/attrs.js
+234 silly gunzTarPerm extractEntry lib/nodes/code.js
+235 silly gunzTarPerm extractEntry lib/nodes/comment.js
+236 silly gunzTarPerm extractEntry lib/nodes/doctype.js
+237 silly gunzTarPerm extractEntry lib/nodes/case.js
+238 silly gunzTarPerm extractEntry lib/nodes/filter.js
+239 silly gunzTarPerm extractEntry lib/nodes/index.js
+240 silly gunzTarPerm extractEntry lib/nodes/literal.js
+241 silly gunzTarPerm extractEntry lib/nodes/mixin.js
+242 silly gunzTarPerm extractEntry lib/nodes/node.js
+243 silly gunzTarPerm extractEntry lib/nodes/block.js
+244 silly gunzTarPerm extractEntry lib/nodes/tag.js
+245 silly gunzTarPerm extractEntry lib/nodes/block-comment.js
+246 silly gunzTarPerm extractEntry lib/nodes/text.js
+247 silly gunzTarPerm extractEntry lib/nodes/each.js
+248 verbose read json /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152739-0.29838177538476884/package/package.json
+249 silly lockFile 3f236789-2739-0-29838177538476884-package /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152739-0.29838177538476884/package
+250 verbose from cache /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152739-0.29838177538476884/package/package.json
+251 verbose tar pack [ '/Users/asrobson/.npm/jade/0.27.7/package.tgz',
+251 verbose tar pack   '/var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152739-0.29838177538476884/package' ]
+252 verbose tarball /Users/asrobson/.npm/jade/0.27.7/package.tgz
+253 verbose folder /var/folders/t5/fdftc6191qg_pzdx6pwggg500000gn/T/npm-22339/1359065152739-0.29838177538476884/package
+254 silly lockFile 94ceaf90-bson-npm-jade-0-27-7-package-tgz /Users/asrobson/.npm/jade/0.27.7/package.tgz
+255 verbose lock /Users/asrobson/.npm/jade/0.27.7/package.tgz /Users/asrobson/.npm/94ceaf90-bson-npm-jade-0-27-7-package-tgz.lock
+256 silly lockFile 94ceaf90-bson-npm-jade-0-27-7-package-tgz /Users/asrobson/.npm/jade/0.27.7/package.tgz
+257 silly lockFile 2b619b78-asrobson-npm-jade-0-27-7-package /Users/asrobson/.npm/jade/0.27.7/package
+258 verbose lock /Users/asrobson/.npm/jade/0.27.7/package /Users/asrobson/.npm/2b619b78-asrobson-npm-jade-0-27-7-package.lock
+259 silly lockFile 2b619b78-asrobson-npm-jade-0-27-7-package /Users/asrobson/.npm/jade/0.27.7/package
+260 verbose tar unpack /Users/asrobson/.npm/jade/0.27.7/package.tgz
+261 silly lockFile 2b619b78-asrobson-npm-jade-0-27-7-package /Users/asrobson/.npm/jade/0.27.7/package
+262 verbose lock /Users/asrobson/.npm/jade/0.27.7/package /Users/asrobson/.npm/2b619b78-asrobson-npm-jade-0-27-7-package.lock
+263 silly gunzTarPerm modes [ '755', '644' ]
+264 silly gunzTarPerm extractEntry package.json
+265 silly gunzTarPerm extractEntry .npmignore
+266 silly gunzTarPerm extractEntry LICENSE
+267 silly gunzTarPerm extractEntry index.js
+268 silly gunzTarPerm extractEntry jade.js
+269 silly gunzTarPerm extractEntry runtime.js
+270 silly gunzTarPerm extractEntry jade.min.js
+271 silly gunzTarPerm extractEntry runtime.min.js
+272 silly gunzTarPerm extractEntry bin/jade
+273 silly gunzTarPerm extractEntry Readme.md
+274 silly gunzTarPerm extractEntry jade.md
+275 silly gunzTarPerm extractEntry lib/compiler.js
+276 silly gunzTarPerm extractEntry lib/filters.js
+277 silly gunzTarPerm extractEntry lib/inline-tags.js
+278 silly gunzTarPerm extractEntry lib/jade.js
+279 silly gunzTarPerm extractEntry lib/doctypes.js
+280 silly gunzTarPerm extractEntry lib/self-closing.js
+281 silly gunzTarPerm extractEntry lib/parser.js
+282 silly gunzTarPerm extractEntry lib/runtime.js
+283 silly gunzTarPerm extractEntry lib/utils.js
+284 silly gunzTarPerm extractEntry lib/lexer.js
+285 silly gunzTarPerm extractEntry lib/nodes/attrs.js
+286 silly gunzTarPerm extractEntry lib/nodes/code.js
+287 silly gunzTarPerm extractEntry lib/nodes/comment.js
+288 silly gunzTarPerm extractEntry lib/nodes/doctype.js
+289 silly gunzTarPerm extractEntry lib/nodes/case.js
+290 silly gunzTarPerm extractEntry lib/nodes/filter.js
+291 silly gunzTarPerm extractEntry lib/nodes/index.js
+292 silly gunzTarPerm extractEntry lib/nodes/literal.js
+293 silly gunzTarPerm extractEntry lib/nodes/mixin.js
+294 silly gunzTarPerm extractEntry lib/nodes/node.js
+295 silly gunzTarPerm extractEntry lib/nodes/block.js
+296 silly gunzTarPerm extractEntry lib/nodes/tag.js
+297 silly gunzTarPerm extractEntry lib/nodes/block-comment.js
+298 silly gunzTarPerm extractEntry lib/nodes/text.js
+299 silly gunzTarPerm extractEntry lib/nodes/each.js
+300 verbose from cache /Users/asrobson/.npm/jade/0.27.7/package/package.json
+301 silly lockFile 2b619b78-asrobson-npm-jade-0-27-7-package /Users/asrobson/.npm/jade/0.27.7/package
+302 silly shasum updated bytes 40960
+303 silly shasum updated bytes 20262
+304 info shasum b157e3133789a5724cbdddd45341c7590da927aa
+304 info shasum /Users/asrobson/.npm/jade/0.27.7/package.tgz
+305 verbose from cache /Users/asrobson/.npm/jade/0.27.7/package/package.json
+306 verbose chmod /Users/asrobson/.npm/jade/0.27.7/package.tgz 644
+307 verbose chown /Users/asrobson/.npm/jade/0.27.7/package.tgz [ 501, 20 ]
+308 silly lockFile 8e73e513-y-npmjs-org-jade-jade-0-27-7-tgz https://registry.npmjs.org/jade/-/jade-0.27.7.tgz
+309 silly lockFile 45ba1fa8-jade-0-27-7 jade@0.27.7
+310 silly resolved [ { name: 'jade',
+310 silly resolved     description: 'Jade template engine',
+310 silly resolved     version: '0.27.7',
+310 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+310 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/jade' },
+310 silly resolved     main: './index.js',
+310 silly resolved     bin: { jade: './bin/jade' },
+310 silly resolved     man: [ './jade.1' ],
+310 silly resolved     dependencies:
+310 silly resolved      { commander: '0.6.1',
+310 silly resolved        mkdirp: '0.3.x',
+310 silly resolved        'coffee-script': '~1.4.0' },
+310 silly resolved     devDependencies:
+310 silly resolved      { mocha: '*',
+310 silly resolved        markdown: '*',
+310 silly resolved        stylus: '*',
+310 silly resolved        uubench: '*',
+310 silly resolved        should: '*',
+310 silly resolved        less: '*',
+310 silly resolved        'uglify-js': '*' },
+310 silly resolved     component: { scripts: [Object] },
+310 silly resolved     scripts: { prepublish: 'npm prune' },
+310 silly resolved     readme: ' [![Build Status](https://secure.travis-ci.org/visionmedia/jade.png)](http://travis-ci.org/visionmedia/jade)\n\n# Jade - template engine\n\n Jade is a high performance template engine heavily influenced by [Haml](http://haml-lang.com)\n and implemented with JavaScript for [node](http://nodejs.org). For discussion join the [Google Group](http://groups.google.com/group/jadejs).\n\n## Test drive\n\n  You can test drive Jade online [here](http://naltatis.github.com/jade-syntax-docs).\n\n## README Contents\n\n- [Features](#a1)\n- [Implementations](#a2)\n- [Installation](#a3)\n- [Browser Support](#a4)\n- [Public API](#a5)\n- [Syntax](#a6)\n    - [Line Endings](#a6-1)\n    - [Tags](#a6-2)\n    - [Tag Text](#a6-3)\n    - [Comments](#a6-4)\n    - [Block Comments](#a6-5)\n    - [Nesting](#a6-6)\n    - [Block Expansion](#a6-7)\n    - [Case](#a6-8)\n    - [Attributes](#a6-9)\n    - [HTML](#a6-10)\n    - [Doctypes](#a6-11)\n- [Filters](#a7)\n- [Code](#a8)\n- [Iteration](#a9)\n- [Conditionals](#a10)\n- [Template inheritance](#a11)\n- [Block append / prepend](#a12)\n- [Includes](#a13)\n- [Mixins](#a14)\n- [Generated Output](#a15)\n- [Example Makefile](#a16)\n- [jade(1)](#a17)\n- [Tutorials](#a18)\n- [License](#a19)\n\n<a name="a1"/>\n## Features\n\n  - client-side support\n  - great readability\n  - flexible indentation\n  - block-expansion\n  - mixins\n  - static includes\n  - attribute interpolation\n  - code is escaped by default for security\n  - contextual error reporting at compile &amp; run time\n  - executable for compiling jade templates via the command line\n  - html 5 mode (the default doctype)\n  - optional memory caching\n  - combine dynamic and static tag classes\n  - parse tree manipulation via _filters_\n  - template inheritance\n  - block append / prepend\n  - supports [Express JS](http://expressjs.com) out of the box\n  - transparent iteration over objects, arrays, and even non-enumerables via `each`\n  - block comments\n  - no tag prefix\n  - AST filters\n  - filters\n    - :stylus must have [stylus](http://github.com/LearnBoost/stylus) installed\n    - :less must have [less.js](http://github.com/cloudhead/less.js) installed\n    - :markdown must have [markdown-js](http://github.com/evilstreak/markdown-js), [node-discount](http://github.com/visionmedia/node-discount), or [marked](http://github.com/chjj/marked) installed\n    - :cdata\n    - :coffeescript must have [coffee-script](http://jashkenas.github.com/coffee-script/) installed\n  - [Emacs Mode](https://github.com/brianc/jade-mode)\n  - [Vim Syntax](https://github.com/digitaltoad/vim-jade)\n  - [TextMate Bundle](http://github.com/miksago/jade-tmbundle)\n  - [Coda/SubEtha syntax Mode](https://github.com/aaronmccall/jade.mode)\n  - [Screencasts](http://tjholowaychuk.com/post/1004255394/jade-screencast-template-engine-for-nodejs)\n  - [html2jade](https://github.com/donpark/html2jade) converter\n\n<a name="a2"/>\n## Implementations\n\n  - [php](http://github.com/everzet/jade.php)\n  - [scala](http://scalate.fusesource.org/versions/snapshot/documentation/scaml-reference.html)\n  - [ruby](http://github.com/stonean/slim)\n  - [python](https://github.com/SyrusAkbary/pyjade)\n  - [java](https://github.com/neuland/jade4j)\n\n<a name="a3"/>\n## Installation\n\nvia npm:\n\n```bash\n$ npm install jade\n```\n\n<a name="a4"/>\n## Browser Support\n\n To compile jade to a single file compatible for client-side use simply execute:\n\n```bash\n$ make jade.js\n```\n\n Alternatively, if uglifyjs is installed via npm (`npm install uglify-js`) you may execute the following which will create both files. However each release builds these for you.\n\n```bash\n$ make jade.min.js\n```\n\n  By default Jade instruments templates with line number statements such as `__.lineno = 3` for debugging purposes. When used in a browser it\'s useful to minimize this boiler plate, you can do so by passing the option `{ compileDebug: false }`. The following template\n\n```jade\np Hello #{name}\n```\n\n Can then be as small as the following generated function:\n\n```js\nfunction anonymous(locals, attrs, escape, rethrow) {\n  var buf = [];\n  with (locals || {}) {\n    var interp;\n    buf.push(\'\\n<p>Hello \' + escape((interp = name) == null ? \'\' : interp) + \'\\n</p>\');\n  }\n  return buf.join("");\n}\n```\n\n  Through the use of Jade\'s `./runtime.js` you may utilize these pre-compiled templates on the client-side _without_ Jade itself, all you need is the associated utility functions (in runtime.js), which are then available as `jade.attrs`, `jade.escape` etc. To enable this you should pass `{ client: true }` to `jade.compile()` to tell Jade to reference the helper functions\n  via `jade.attrs`, `jade.escape` etc.\n\n```js\nfunction anonymous(locals, attrs, escape, rethrow) {\n  var attrs = jade.attrs, escape = jade.escape, rethrow = jade.rethrow;\n  var buf = [];\n  with (locals || {}) {\n    var interp;\n    buf.push(\'\\n<p>Hello \' + escape((interp = name) == null ? \'\' : interp) + \'\\n</p>\');\n  }\n  return buf.join("");\n}\n```\n\n<a name="a5"/>\n## Public API\n\n```js\nvar jade = require(\'jade\');\n\n// Compile a function\nvar fn = jade.compile(\'string of jade\', options);\nfn(locals);\n```\n\n### Options\n\n - `self`      Use a `self` namespace to hold the locals _(false by default)_\n - `locals`    Local variable object\n - `filename`  Used in exceptions, and required when using includes\n - `debug`     Outputs tokens and function body generated\n - `compiler`  Compiler to replace jade\'s default\n - `compileDebug`  When `false` no debug instrumentation is compiled\n - `pretty`    Add pretty-indentation whitespace to output _(false by default)_\n\n<a name="a6"/>\n## Syntax\n\n<a name="a6-1"/>\n### Line Endings\n\n**CRLF** and **CR** are converted to **LF** before parsing.\n\n<a name="a6-2"/>\n### Tags\n\nA tag is simply a leading word:\n\n```jade\nhtml\n```\n\nfor example is converted to `<html></html>`\n\ntags can also have ids:\n\n```jade\ndiv#container\n```\n\nwhich would render `<div id="container"></div>`\n\nhow about some classes?\n\n```jade\ndiv.user-details\n```\n\nrenders `<div class="user-details"></div>`\n\nmultiple classes? _and_ an id? sure:\n\n```jade\ndiv#foo.bar.baz\n```\n\nrenders `<div id="foo" class="bar baz"></div>`\n\ndiv div div sure is annoying, how about:\n\n```jade\n#foo\n.bar\n```\n\nwhich is syntactic sugar for what we have already been doing, and outputs:\n\n```html\n<div id="foo"></div><div class="bar"></div>\n```\n\n<a name="a6-3"/>\n### Tag Text\n\nSimply place some content after the tag:\n\n```jade\np wahoo!\n```\n\nrenders `<p>wahoo!</p>`.\n\nwell cool, but how about large bodies of text:\n\n```jade\np\n  | foo bar baz\n  | rawr rawr\n  | super cool\n  | go jade go\n```\n\nrenders `<p>foo bar baz rawr.....</p>`\n\ninterpolation? yup! both types of text can utilize interpolation,\nif we passed `{ name: \'tj\', email: \'tj@vision-media.ca\' }` to the compiled function we can do the following:\n\n```jade\n#user #{name} &lt;#{email}&gt;\n```\n\noutputs `<div id="user">tj &lt;tj@vision-media.ca&gt;</div>`\n\nActually want `#{}` for some reason? escape it!\n\n```jade\np \\#{something}\n```\n\nnow we have `<p>#{something}</p>`\n\nWe can also utilize the unescaped variant `!{html}`, so the following\nwill result in a literal script tag:\n\n```jade\n- var html = "<script></script>"\n| !{html}\n```\n\nNested tags that also contain text can optionally use a text block:\n\n```jade\nlabel\n  | Username:\n  input(name=\'user[name]\')\n```\n\nor immediate tag text:\n\n```jade\nlabel Username:\n  input(name=\'user[name]\')\n```\n\nTags that accept _only_ text such as `script` and `style` do not\nneed the leading `|` character, for example:\n\n```jade\nhtml\n  head\n    title Example\n    script\n      if (foo) {\n        bar();\n      } else {\n        baz();\n      }\n```\n\nOnce again as an alternative, we may use a trailing `.` to indicate a text block, for example:\n\n```jade\np.\n  foo asdf\n  asdf\n   asdfasdfaf\n   asdf\n  asd.\n```\n\noutputs:\n\n```html\n<p>foo asdf\nasdf\n  asdfasdfaf\n  asdf\nasd.\n</p>\n```\n\nThis however differs from a trailing `.` followed by a space, which although is ignored by the Jade parser, tells Jade that this period is a literal:\n\n```jade\np .\n```\n\noutputs:\n\n```html\n<p>.</p>\n```\n\nIt should be noted that text blocks should be doubled escaped.  For example if you desire the following output.\n\n```html\n<p>foo\\bar</p>\n```\n\nuse:\n\n```jade\np.\n  foo\\\\bar\n```\n\n<a name="a6-4"/>\n### Comments\n\nSingle line comments currently look the same as JavaScript comments,\naka `//` and must be placed on their own line:\n\n```jade\n// just some paragraphs\np foo\np bar\n```\n\nwould output\n\n```html\n<!-- just some paragraphs -->\n<p>foo</p>\n<p>bar</p>\n```\n\nJade also supports unbuffered comments, by simply adding a hyphen:\n\n```jade\n//- will not output within markup\np foo\np bar\n```\n\noutputting\n\n```html\n<p>foo</p>\n<p>bar</p>\n```\n\n<a name="a6-5"/>\n### Block Comments\n\n A block comment is legal as well:\n\n```jade\nbody\n  //\n    #content\n      h1 Example\n```\n\noutputting\n\n```html\n<body>\n  <!--\n  <div id="content">\n    <h1>Example</h1>\n  </div>\n  -->\n</body>\n```\n\nJade supports conditional-comments as well, for example:\n\n```jade\nhead\n  //if lt IE 8\n    script(src=\'/ie-sucks.js\')\n```\n\noutputs:\n\n```html\n<body>\n  <!--[if lt IE 8]>\n    <script src="/ie-sucks.js"></script>\n  <![endif]-->\n</body>\n```\n\n<a name="a6-6"/>\n### Nesting\n\n Jade supports nesting to define the tags in a natural way:\n\n```jade\nul\n  li.first\n    a(href=\'#\') foo\n  li\n    a(href=\'#\') bar\n  li.last\n    a(href=\'#\') baz\n```\n\n<a name="a6-7"/>\n### Block Expansion\n\n Block expansion allows you to create terse single-line nested tags,\n the following example is equivalent to the nesting example above.\n\n```jade\nul\n  li.first: a(href=\'#\') foo\n  li: a(href=\'#\') bar\n  li.last: a(href=\'#\') baz\n```\n\n<a name="a6-8"/>\n### Case\n\n The case statement takes the following form:\n\n```jade\nhtml\n  body\n    friends = 10\n    case friends\n      when 0\n        p you have no friends\n      when 1\n        p you have a friend\n      default\n        p you have #{friends} friends\n```\n\n Block expansion may also be used:\n\n```jade\nfriends = 5\n\nhtml\n  body\n    case friends\n      when 0: p you have no friends\n      when 1: p you have a friend\n      default: p you have #{friends} friends\n```\n\n<a name="a6-9"/>\n### Attributes\n\nJade currently supports `(` and `)` as attribute delimiters.\n\n```jade\na(href=\'/login\', title=\'View login page\') Login\n```\n\nWhen a value is `undefined` or `null` the attribute is _not_ added,\nso this is fine, it will not compile `something="null"`.\n\n```jade\ndiv(something=null)\n```\n\nBoolean attributes are also supported:\n\n```jade\ninput(type="checkbox", checked)\n```\n\nBoolean attributes with code will only output the attribute when `true`:\n\n```jade\ninput(type="checkbox", checked=someValue)\n```\n\nMultiple lines work too:\n\n```jade\ninput(type=\'checkbox\',\n  name=\'agreement\',\n  checked)\n```\n\nMultiple lines without the comma work fine:\n\n```jade\ninput(type=\'checkbox\'\n  name=\'agreement\'\n  checked)\n```\n\nFunky whitespace? fine:\n\n```jade\ninput(\n  type=\'checkbox\'\n  name=\'agreement\'\n  checked)\n```\n\nColons work:\n\n```jade\nrss(xmlns:atom="atom")\n```\n\nSuppose we have the `user` local `{ id: 12, name: \'tobi\' }`\nand we wish to create an anchor tag with `href` pointing to "/user/12"\nwe could use regular javascript concatenation:\n\n```jade\na(href=\'/user/\' + user.id)= user.name\n```\n\nor we could use jade\'s interpolation, which I added because everyone\nusing Ruby or CoffeeScript seems to think this is legal js..:\n\n```jade\na(href=\'/user/#{user.id}\')= user.name\n```\n\nThe `class` attribute is special-cased when an array is given,\nallowing you to pass an array such as `bodyClasses = [\'user\', \'authenticated\']` directly:\n\n```jade\nbody(class=bodyClasses)\n```\n\n<a name="a6-10"/>\n### HTML\n\n Inline html is fine, we can use the pipe syntax to\n write arbitrary text, in this case some html:\n\n```jade\nhtml\n  body\n    | <h1>Title</h1>\n    | <p>foo bar baz</p>\n```\n\n Or we can use the trailing `.` to indicate to Jade that we\n only want text in this block, allowing us to omit the pipes:\n\n```jade\nhtml\n  body.\n    <h1>Title</h1>\n    <p>foo bar baz</p>\n```\n\n Both of these examples yield the same result:\n\n```html\n<html><body><h1>Title</h1>\n<p>foo bar baz</p>\n</body></html>\n```\n\n The same rule applies for anywhere you can have text\n in jade, raw html is fine:\n\n```jade\nhtml\n  body\n    h1 User <em>#{name}</em>\n```\n\n<a name="a6-11"/>\n### Doctypes\n\nTo add a doctype simply use `!!!`, or `doctype` followed by an optional value:\n\n```jade\n!!!\n```\n\nor\n\n```jade\ndoctype\n```\n\nWill output the _html 5_  doctype, however:\n\n```jade\n!!! transitional\n```\n\nWill output the _transitional_ doctype.\n\nDoctypes are case-insensitive, so the following are equivalent:\n\n```jade\ndoctype Basic\ndoctype basic\n```\n\nit\'s also possible to simply pass a doctype literal:\n\n```jade\ndoctype html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN\n```\n\nyielding:\n\n```html\n<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN>\n```\n\nBelow are the doctypes defined by default, which can easily be extended:\n\n```js\nvar doctypes = exports.doctypes = {\n  \'5\': \'<!DOCTYPE html>\',\n  \'default\': \'<!DOCTYPE html>\',\n  \'xml\': \'<?xml version="1.0" encoding="utf-8" ?>\',\n  \'transitional\': \'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\',\n  \'strict\': \'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\',\n  \'frameset\': \'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">\',\n  \'1.1\': \'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">\',\n  \'basic\': \'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN" "http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd">\',\n  \'mobile\': \'<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">\'\n};\n```\n\nTo alter the default simply change:\n\n```js\njade.doctypes.default = \'whatever you want\';\n```\n\n<a name="a7"/>\n## Filters\n\nFilters are prefixed with `:`, for example `:markdown` and\npass the following block of text to an arbitrary function for processing. View the _features_\nat the top of this document for available filters.\n\n```jade\nbody\n  :markdown\n    Woah! jade _and_ markdown, very **cool**\n    we can even link to [stuff](http://google.com)\n```\n\nRenders:\n\n```html\n<body><p>Woah! jade <em>and</em> markdown, very <strong>cool</strong> we can even link to <a href="http://google.com">stuff</a></p></body>\n```\n\n<a name="a8"/>\n## Code\n\nJade currently supports three classifications of executable code. The first\nis prefixed by `-`, and is not buffered:\n\n```jade\n- var foo = \'bar\';\n```\n\nThis can be used for conditionals, or iteration:\n\n```jade\n- for (var key in obj)\n  p= obj[key]\n```\n\nDue to Jade\'s buffering techniques the following is valid as well:\n\n```jade\n- if (foo)\n  ul\n    li yay\n    li foo\n    li worked\n- else\n  p oh no! didnt work\n```\n\nHell, even verbose iteration:\n\n```jade\n- if (items.length)\n  ul\n    - items.forEach(function(item){\n      li= item\n    - })\n```\n\nAnything you want!\n\nNext up we have _escaped_ buffered code, which is used to\nbuffer a return value, which is prefixed by `=`:\n\n```jade\n- var foo = \'bar\'\n= foo\nh1= foo\n```\n\nWhich outputs `bar<h1>bar</h1>`. Code buffered by `=` is escaped\nby default for security, however to output unescaped return values\nyou may use `!=`:\n\n```jade\np!= aVarContainingMoreHTML\n```\n\n Jade also has designer-friendly variants, making the literal JavaScript\n more expressive and declarative. For example the following assignments\n are equivalent, and the expression is still regular javascript:\n\n```jade\n- var foo = \'foo \' + \'bar\'\nfoo = \'foo \' + \'bar\'\n```\n\n  Likewise Jade has first-class `if`, `else if`, `else`, `until`, `while`, `unless` among others, however you must remember that the expressions are still regular javascript:\n\n```jade\nif foo == \'bar\'\n  ul\n    li yay\n    li foo\n    li worked\nelse\n  p oh no! didnt work\n```\n\n<a name="a9"/>\n## Iteration\n\n Along with vanilla JavaScript Jade also supports a subset of\n constructs that allow you to create more designer-friendly templates,\n one of these constructs is `each`, taking the form:\n\n```jade\neach VAL[, KEY] in OBJ\n```\n\nAn example iterating over an array:\n\n```jade\n- var items = ["one", "two", "three"]\neach item in items\n  li= item\n```\n\noutputs:\n\n```html\n<li>one</li>\n<li>two</li>\n<li>three</li>\n```\n\niterating an array with index:\n\n```jade\nitems = ["one", "two", "three"]\neach item, i in items\n  li #{item}: #{i}\n```\n\noutputs:\n\n```html\n<li>one: 0</li>\n<li>two: 1</li>\n<li>three: 2</li>\n```\n\niterating an object\'s keys and values:\n\n```jade\nobj = { foo: \'bar\' }\neach val, key in obj\n  li #{key}: #{val}\n```\n\nwould output `<li>foo: bar</li>`\n\nInternally Jade converts these statements to regular\nJavaScript loops such as `users.forEach(function(user){`,\nso lexical scope and nesting applies as it would with regular\nJavaScript:\n\n```jade\neach user in users\n  each role in user.roles\n    li= role\n```\n\n You may also use `for` if you prefer:\n\n```jade\nfor user in users\n  for role in user.roles\n    li= role\n```\n\n<a name="a10"/>\n## Conditionals\n\n Jade conditionals are equivalent to those using the code (`-`) prefix,\n however allow you to ditch parenthesis to become more designer friendly,\n however keep in mind the expression given is _regular_ JavaScript:\n\n```jade\nfor user in users\n  if user.role == \'admin\'\n    p #{user.name} is an admin\n  else\n    p= user.name\n```\n\n is equivalent to the following using vanilla JavaScript literals:\n\n```jade\nfor user in users\n  - if (user.role == \'admin\')\n    p #{user.name} is an admin\n  - else\n    p= user.name\n```\n\n  Jade also provides have `unless` which is equivalent to `if (!(expr))`:\n\n```jade\nfor user in users\n  unless user.isAnonymous\n    p\n      | Click to view\n      a(href=\'/users/\' + user.id)= user.name\n```\n\n<a name="a11"/>\n## Template inheritance\n\n  Jade supports template inheritance via the `block` and `extends` keywords. A block is simply a "block" of Jade that may be replaced within a child template, this process is recursive. To activate template inheritance in Express 2.x you must add: `app.set(\'view options\', { layout: false });`.\n\n  Jade blocks can provide default content if desired, however optional as shown below by `block scripts`, `block content`, and `block foot`.\n\n```jade\nhtml\n  head\n    h1 My Site - #{title}\n    block scripts\n      script(src=\'/jquery.js\')\n  body\n    block content\n    block foot\n      #footer\n        p some footer content\n```\n\n  Now to extend the layout, simply create a new file and use the `extends` directive as shown below, giving the path (with or without the .jade extension). You may now define one or more blocks that will override the parent block content, note that here the `foot` block is _not_ redefined and will output "some footer content".\n\n```jade\nextends layout\n\nblock scripts\n  script(src=\'/jquery.js\')\n  script(src=\'/pets.js\')\n\nblock content\n  h1= title\n  each pet in pets\n    include pet\n```\n\n  It\'s also possible to override a block to provide additional blocks, as shown in the following example where `content` now exposes a `sidebar` and `primary` block for overriding, or the child template could override `content` all together.\n\n```jade\nextends regular-layout\n\nblock content\n  .sidebar\n    block sidebar\n      p nothing\n  .primary\n    block primary\n      p nothing\n```\n\n<a name="a12"/>\n## Block append / prepend\n\n Jade allows you to _replace_ (default), _prepend_, or _append_ blocks. Suppose for example you have default scripts in a "head" block that you wish to utilize on _every_ page, you might do this:\n\n```jade\nhtml\n  head\n    block head\n      script(src=\'/vendor/jquery.js\')\n      script(src=\'/vendor/caustic.js\')\n    body\n      block content\n```\n\n Now suppose you have a page of your application for a JavaScript game, you want some game related scripts as well as these defaults, you can simply `append` the block:\n\n```jade\nextends layout\n\nblock append head\n  script(src=\'/vendor/three.js\')\n  script(src=\'/game.js\')\n```\n\n  When using `block append` or `block prepend` the `block` is optional:\n\n```jade\nextends layout\n\nappend head\n  script(src=\'/vendor/three.js\')\n  script(src=\'/game.js\')\n```\n\n<a name="a13"/>\n## Includes\n\n Includes allow you to statically include chunks of Jade,\n or other content like css, or html which lives in separate files. The classical example is including a header and footer. Suppose we have the following directory structure:\n\n    ./layout.jade\n    ./includes/\n      ./head.jade\n      ./foot.jade\n\nand the following _layout.jade_:\n\n```jade\nhtml\n  include includes/head\n  body\n    h1 My Site\n    p Welcome to my super amazing site.\n    include includes/foot\n```\n\nboth includes _includes/head_ and _includes/foot_ are\nread relative to the `filename` option given to _layout.jade_,\nwhich should be an absolute path to this file, however Express does this for you. Include then parses these files, and injects the AST produced to render what you would expect:\n\n```html\n<html>\n  <head>\n    <title>My Site</title>\n    <script src="/javascripts/jquery.js">\n    </script><script src="/javascripts/app.js"></script>\n  </head>\n  <body>\n    <h1>My Site</h1>\n    <p>Welcome to my super lame site.</p>\n    <div id="footer">\n      <p>Copyright>(c) foobar</p>\n    </div>\n  </body>\n</html>\n```\n\n As mentioned `include` can be used to include other content\n such as html or css. By providing an extension Jade will not\n assume that the file is Jade source and will include it as\n a literal:\n\n```jade\nhtml\n  body\n    include content.html\n```\n\n  Include directives may also accept a block, in which case the\n  the given block will be appended to the _last_ block defined\n  in the file. For example if `head.jade` contains:\n\n```jade\nhead\n  script(src=\'/jquery.js\')\n```\n\n We may append values by providing a block to `include head`\n as shown below, adding the two scripts.\n\n```jade\nhtml\n  include head\n    script(src=\'/foo.js\')\n    script(src=\'/bar.js\')\n  body\n    h1 test\n```\n\n You may also `yield` within an included template, allowing you to explicitly mark where the block given to `include` will be placed. Suppose for example you wish to prepend scripts rather than append, you might do the following:\n\n```jade\nhead\n  yield\n  script(src=\'/jquery.js\')\n  script(src=\'/jquery.ui.js\')\n```\n\n Since included Jade is parsed and literally merges the AST, lexically scoped variables function as if the included Jade was written right in the same file. This means `include` may be used as sort of partial, for example suppose we have `user.jade` which utilizes a `user` variable.\n\n```jade\nh1= user.name\np= user.occupation\n```\n\nWe could then simply `include user` while iterating users, and since the `user` variable is already defined within the loop the included template will have access to it.\n\n```jade\nusers = [{ name: \'Tobi\', occupation: \'Ferret\' }]\n\neach user in users\n  .user\n    include user\n```\n\nyielding:\n\n```html\n<div class="user">\n  <h1>Tobi</h1>\n  <p>Ferret</p>\n</div>\n```\n\nIf we wanted to expose a different variable name as `user` since `user.jade` references that name, we could simply define a new variable as shown here with `user = person`:\n\n```jade\neach person in users\n  .user\n    user = person\n    include user\n```\n\n<a name="a14"/>\n## Mixins\n\n Mixins are converted to regular JavaScript functions in\n the compiled template that Jade constructs. Mixins may\n take arguments, though not required:\n\n```jade\nmixin list\n  ul\n    li foo\n    li bar\n    li baz\n```\n\n  Utilizing a mixin without args looks similar, just without a block:\n\n```jade\nh2 Groceries\nmixin list\n```\n\n  Mixins may take one or more arguments as well, the arguments\n  are regular javascripts expressions, so for example the following:\n\n```jade\nmixin pets(pets)\n  ul.pets\n    - each pet in pets\n      li= pet\n\nmixin profile(user)\n  .user\n    h2= user.name\n    mixin pets(user.pets)\n```\n\n   Would yield something similar to the following html:\n\n```html\n<div class="user">\n  <h2>tj</h2>\n  <ul class="pets">\n    <li>tobi</li>\n    <li>loki</li>\n    <li>jane</li>\n    <li>manny</li>\n  </ul>\n</div>\n```\n\n<a name="a15"/>\n## Generated Output\n\n Suppose we have the following Jade:\n\n```jade\n- var title = \'yay\'\nh1.title #{title}\np Just an example\n```\n\n When the `compileDebug` option is not explicitly `false`, Jade\n will compile the function instrumented with `__.lineno = n;`, which\n in the event of an exception is passed to `rethrow()` which constructs\n a useful message relative to the initial Jade input.\n\n```js\nfunction anonymous(locals) {\n  var __ = { lineno: 1, input: "- var title = \'yay\'\\nh1.title #{title}\\np Just an example", filename: "testing/test.js" };\n  var rethrow = jade.rethrow;\n  try {\n    var attrs = jade.attrs, escape = jade.escape;\n    var buf = [];\n    with (locals || {}) {\n      var interp;\n      __.lineno = 1;\n       var title = \'yay\'\n      __.lineno = 2;\n      buf.push(\'<h1\');\n      buf.push(attrs({ "class": (\'title\') }));\n      buf.push(\'>\');\n      buf.push(\'\' + escape((interp = title) == null ? \'\' : interp) + \'\');\n      buf.push(\'</h1>\');\n      __.lineno = 3;\n      buf.push(\'<p>\');\n      buf.push(\'Just an example\');\n      buf.push(\'</p>\');\n    }\n    return buf.join("");\n  } catch (err) {\n    rethrow(err, __.input, __.filename, __.lineno);\n  }\n}\n```\n\nWhen the `compileDebug` option _is_ explicitly `false`, this instrumentation\nis stripped, which is very helpful for light-weight client-side templates. Combining Jade\'s options with the `./runtime.js` file in this repo allows you\nto toString() compiled templates and avoid running the entire Jade library on\nthe client, increasing performance, and decreasing the amount of JavaScript\nrequired.\n\n```js\nfunction anonymous(locals) {\n  var attrs = jade.attrs, escape = jade.escape;\n  var buf = [];\n  with (locals || {}) {\n    var interp;\n    var title = \'yay\'\n    buf.push(\'<h1\');\n    buf.push(attrs({ "class": (\'title\') }));\n    buf.push(\'>\');\n    buf.push(\'\' + escape((interp = title) == null ? \'\' : interp) + \'\');\n    buf.push(\'</h1>\');\n    buf.push(\'<p>\');\n    buf.push(\'Just an example\');\n    buf.push(\'</p>\');\n  }\n  return buf.join("");\n}\n```\n\n<a name="a16"/>\n## Example Makefile\n\n  Below is an example Makefile used to compile _pages/*.jade_\n  into _pages/*.html_ files by simply executing `make`.\n\n```make\nJADE = $(shell find pages/*.jade)\nHTML = $(JADE:.jade=.html)\n\nall: $(HTML)\n\n%.html: %.jade\n    jade < $< --path $< > $@\n\nclean:\n    rm -f $(HTML)\n\n.PHONY: clean\n```\n\nthis can be combined with the `watch(1)` command to produce\na watcher-like behaviour:\n\n```bash\n$ watch make\n```\n\n<a name="a17"/>\n## jade(1)\n\n```\n\nUsage: jade [options] [dir|file ...]\n\nOptions:\n\n  -h, --help         output usage information\n  -V, --version      output the version number\n  -o, --obj <str>    javascript options object\n  -O, --out <dir>    output the compiled html to <dir>\n  -p, --path <path>  filename used to resolve includes\n  -P, --pretty       compile pretty html output\n  -c, --client       compile for client-side runtime.js\n  -D, --no-debug     compile without debugging (smaller functions)\n\nExamples:\n\n  # translate jade the templates dir\n  $ jade templates\n\n  # create {foo,bar}.html\n  $ jade {foo,bar}.jade\n\n  # jade over stdio\n  $ jade < my.jade > my.html\n\n  # jade over stdio\n  $ echo "h1 Jade!" | jade\n\n  # foo, bar dirs rendering to /tmp\n  $ jade foo bar --out /tmp\n\n```\n\n<a name="a18"/>\n## Tutorials\n\n  - cssdeck interactive [Jade syntax tutorial](http://cssdeck.com/labs/learning-the-jade-templating-engine-syntax)\n  - cssdeck interactive [Jade logic tutorial](http://cssdeck.com/labs/jade-templating-tutorial-codecast-part-2)\n  - in [Japanese](http://blog.craftgear.net/4f501e97c1347ec934000001/title/10%E5%88%86%E3%81%A7%E3%82%8F%E3%81%8B%E3%82%8Bjade%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3)\n\n<a name="a19"/>\n## License\n\n(The MIT License)\n\nCopyright (c) 2009-2010 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+310 silly resolved     readmeFilename: 'Readme.md',
+310 silly resolved     _id: 'jade@0.27.7',
+310 silly resolved     dist: { shasum: 'b157e3133789a5724cbdddd45341c7590da927aa' },
+310 silly resolved     _from: 'jade@0.27.7' } ]
+311 info install jade@0.27.7 into /git/js/anvil/anvil.jade
+312 info installOne jade@0.27.7
+313 verbose from cache /Users/asrobson/.npm/jade/0.27.7/package/package.json
+314 info /git/js/anvil/anvil.jade/node_modules/jade unbuild
+315 verbose from cache /git/js/anvil/anvil.jade/node_modules/jade/package.json
+316 info preuninstall jade@0.27.0
+317 info uninstall jade@0.27.0
+318 verbose true,/git/js/anvil/anvil.jade/node_modules,/git/js/anvil/anvil.jade/node_modules unbuild jade@0.27.0
+319 verbose /git/js/anvil/anvil.jade/node_modules/.bin,[object Object] binRoot
+320 info /git/js/anvil/anvil.jade/node_modules/jade unbuild
+321 verbose read json /git/js/anvil/anvil.jade/node_modules/jade/package.json
+322 info preuninstall jade@0.27.0
+323 info uninstall jade@0.27.0
+324 verbose true,/git/js/anvil/anvil.jade/node_modules,/git/js/anvil/anvil.jade/node_modules unbuild jade@0.27.0
+325 verbose /git/js/anvil/anvil.jade/node_modules/.bin,[object Object] binRoot
+326 info postuninstall jade@0.27.0
+327 error Refusing to delete: /git/js/anvil/anvil.jade/node_modules/.bin/jade not in /git/js/anvil/anvil.jade/node_modules/jade
+File exists: /git/js/anvil/anvil.jade/node_modules/.bin/jade
+Move it away, and try again.
+328 error System Darwin 12.2.0
+329 error command "/Users/asrobson/.nvm/v0.8.16/bin/node" "/Users/asrobson/.nvm/v0.8.16/bin/npm" "update"
+330 error cwd /git/js/anvil/anvil.jade
+331 error node -v v0.8.16
+332 error npm -v 1.1.69
+333 error path /git/js/anvil/anvil.jade/node_modules/.bin/jade
+334 error code EEXIST
+335 verbose exit [ 1, true ]

@@ -8,8 +8,8 @@ module.exports = function( _, anvil ) {
 
 			anvil.config[ "anvil.combiner" ].patterns.push( {
 				extensions: [ ".jade" ],
-				find: "/import.?'.*'.?/g",
-				replace: "/([ \t]*)import.?'replace'.?/g"
+				find: "/[\/]{2}.?import.?'.*'.?/g",
+				replace: "/([ \t]*)[\/]{2}.?import.?'replace'.?/g"
 			} );
 			done();
 		},
